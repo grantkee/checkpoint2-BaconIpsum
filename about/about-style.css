@@ -35,7 +35,6 @@ li {
 
 a:link {
     text-decoration: none;
-    color: black;
 }
 
 /* background */
@@ -54,6 +53,7 @@ body {
 /*footer*/
 
 footer {
+    display: block;
     text-align: center;
     border: 1px solid white;
     margin-left: auto;
@@ -62,4 +62,5 @@ footer {
     width: 50px;
     font-family: Roboto, sans-serif;
     border-radius: 10%;
+    transition: ease-in-out;
 }

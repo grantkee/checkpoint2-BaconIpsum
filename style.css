@@ -148,3 +148,38 @@ body{
     transform:translate(-50%, -50%);
     font-family: Roboto, sans-serif;
   }
+
+  
+@keyframes example {
+  0% {color: white;}
+  15% {color: red;}
+  28% {color: orange;}
+  40% {color: yellow;}
+  60% {color: green;}
+  75% {color: blue;}
+  90% {color: violet;}
+}
+
+.mainbody {
+  animation-name: example;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+}
+
+.flyby {
+  top: 80%;
+  left: -200px;
+  z-index: 10;
+  animation-name: zoomin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoomin {
+  from {
+    transform: translate(0,0);
+  }
+  to {
+    transform: translate(1920px, 0);
+  }
+}
