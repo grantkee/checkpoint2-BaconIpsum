@@ -1,6 +1,7 @@
 /*navigation settings */
 header {
     width: 100%;
+    font-family: BioRhyme, sans-serif;
 }
 
 .fbook {
@@ -145,4 +146,5 @@ body{
     text-align:center;
     top:50%;
     transform:translate(-50%, -50%);
+    font-family: Roboto, sans-serif;
   }

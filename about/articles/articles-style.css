@@ -1,6 +1,8 @@
 /*navigation settings */
 header {
     width: 100%;
+    font-family: BioRhyme, sans-serif;
+    font-size: 50px;
 }
 
 .fbook {
@@ -17,4 +19,32 @@ li {
     display: inline;
     float: right;
     padding: 5px;
+}
+
+/*background*/
+body{ 
+    background: radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
+    radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),#8a3;background-size: 20px 20px;
+}
+
+/* article previews */
+
+.article {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-family: Roboto, sans-serif;
+    width: 300px;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover {
+    color: black;
+    font-style: oblique
 }
